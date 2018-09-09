@@ -1,3 +1,5 @@
+## 1. Change / Update required files to generate SDK
+
 5 files you may need to change.
 
 _EngineClasses.hpp_
@@ -16,12 +18,12 @@ This file contains the game dependend access to the names used by the game. Here
 _ObjectsStore.cpp_
 Same as the _NamesStore.cpp_ but with code for the objects array used by Unreal Engine.  
 
-## 3. Reverse engineer the needed classes
+## 2. Reverse engineer the needed classes
 To get the classes you need to insert into _EngineClasses.hpp_ I recommend this video https://www.youtube.com/watch?v=yNe4jz1v0R4 from The Feckless and the tool ReClass.NET (https://github.com/KN4CK3R/ReClass.NET).
 It shows how you can find the name array (put the signature in _NamesStore.cpp_), the object array (put the signature in _ObjectsStore.cpp_) and the needed classes (put them in _EngineClasses.hpp_).
 Again: To make your life easier, you should use the same member names in the classes so you don't need to change other places too.
 
-## 4. Implement the project specific code
+## 3 Implement the project specific code
 The _Generator.cpp_ file contains settings which control the SDK generation.
 
 ### First the easy methods:
