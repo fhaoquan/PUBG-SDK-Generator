@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PUBG-SDK-Generator", "PUBG-SDK-Generator.vcxproj", "{8421CC8C-A3DB-4F2F-9672-4DDAA9C9D391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8421CC8C-A3DB-4F2F-9672-4DDAA9C9D391}.Debug|x64.ActiveCfg = Debug|x64
+		{8421CC8C-A3DB-4F2F-9672-4DDAA9C9D391}.Debug|x64.Build.0 = Debug|x64
+		{8421CC8C-A3DB-4F2F-9672-4DDAA9C9D391}.Release|x64.ActiveCfg = Release|x64
+		{8421CC8C-A3DB-4F2F-9672-4DDAA9C9D391}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBF820D7-5EAF-47F1-B1A1-6EE94E84AAD3}
+	EndGlobalSection
+EndGlobal
